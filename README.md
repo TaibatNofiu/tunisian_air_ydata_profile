@@ -1,10 +1,13 @@
 # tunisian_air_ydata_profile
+This dataset includes medical measurements and indicators that can help in diagnosing diabetes. The goal is to explore the dataset and uncover any patterns, correlations, and potential issues such as missing values or outliers.
+
 Part 1: Data Exploration with Pandas
 
 * Load the provided dataset into a pandas dataframe
 * Use pandas to explore the dataset. For example, you might start by using the head() and info() methods to get an overview of the data.
 * Look for missing values in the dataset. You can use the isnull() method to identify missing values.
 * Use pandas to calculate some summary statistics for the dataset. For example, you might use the describe() method to get summary statistics for the numerical columns in the dataset.
+
 Part 2: Data Exploration with ydata-Profiling
 
 * Use ydata-profiling to generate a report of the provided dataset.
